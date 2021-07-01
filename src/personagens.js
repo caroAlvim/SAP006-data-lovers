@@ -43,7 +43,6 @@ function filterSpecies(){
 
 const femaleCharacters = () => {
 
-    
 }
 
 const maleCharacters = () =>{
@@ -52,11 +51,17 @@ const maleCharacters = () =>{
 
 
 const orderAZ = () => {
-
+    evento.preventDefault();
+    const valueSelected = alphabeticOrderAz.value;
+    const azSelected = order(characters, valueSelected);
+    console.log(azSelected);//aqui no lugar de console.log chamar showCharacters;
 }
 
 const orderZA =() => {
-
+    evento.preventDefault();
+    const valueSelected = alphabeticOrderZa.value;
+    const zaSelected = order(characters, valueSelected).reverse();
+    console.log(zaSelected);
 }
 
 
