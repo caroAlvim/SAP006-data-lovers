@@ -4,164 +4,49 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #e7e7dd;
 }
-
+/*Menu navegação*/
 .characters-img{
+  margin-top: -250px;
   text-align: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  margin: 5px;
 }
 
-nav{
-  display: flex;
-  justify-content: center;
-  margin: 0px;
-}
-
-.menu{
-  margin: 5px;
-  display: flex;
-  align-content: space-around;
-  flex-direction: column;
-  justify-content: flex-start;
-  height: 110px;
-}
-
-.menu ul {  
-  list-style: none;
-  padding: 10px;
-  text-align: center;
-  color: #56658c;
-  font-size: 16px;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  margin: 5px;
+.menu ul {
+    /*background-color: #a0a2b0;#c1cfda;*/
+   background-color: #e7e7dd;
+    list-style: none; /*tira os marcadores*/
+    padding: 15px 8%;
+    text-align: left;
+    height: 230px;
+    color: #56658c;
+    margin-top: 0px;
 }
 
 .menu ul li {
    display: inline;
-   margin: 10px;
+   margin-right: 20px;
 }
 .menu ul li a:hover {
     color: #41a8bc;
 }
 .menu ul li a {
-    text-decoration: none; 
+    text-decoration: none; /*Tirar o sublinhado da referência*/
 }
-.menu-select{
-  display: flex;
-  align-items: center;
-  align-content: space-around;
-  margin: 5px;
+.character-img{
+  text-align: center;
 }
-
-.print-curious{
+section{
+    margin: auto;
+    text-align: center;
+}
+.open-menu{
+  position:relative;
   display: flex;
-  margin: 10px;
-  align-content: center;
-  align-items: center;
+  flex-flow: row wrap;
   justify-content: center;
-  text-align: center;
-  font-size: 20px;
 }
-
-.open-menu, .main-container{
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  margin: 0px;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-
-/*Buttons e selectors*/
-.button {
-  background-color: #56658c;
-  color: #e7e7dd;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-left: 10px;
-  height: 38px;
-  cursor: pointer;
-  border-radius: 5%;
-}
-
-select {
-  height: 20px;
-  font-size: 16px;
-  text-align: center;
-  cursor: pointer;
-  color: #e7e7dd;
-  background-color: #56658c;
-  height: 38px;
-  margin-left: 10px;
-  text-align: center;
-  border-radius: 5%;
-}
-.search-field{
-  margin-left: 10px;
-  background-color: #56658c;
-  color: #e7e7dd;
-  width: 225px;
-  
-}
-.input{
-  background-color: transparent;
-  height: 20px;
-  width: 180px;
-  font-size: 16px;
-  height: 32px;
-  border: none;
-  color: #e7e7dd;
-
-}
-::-webkit-input-placeholder {
-  color: #e7e7dd;
-}
-
-.container button{
-  background: transparent;
-  color: #e7e7dd;
-  border: none;
-  font-size: 20px;
-}
-
-.search-char, .search-film{
- margin: 5px;
-}
-
-.search-char input, .search-film input{
-  background: #56658c;
-  border:none;
-  border-radius: 5%;
-  height: 38px;
-  font-size: 16px;
-  color:#e7e7dd;
-  padding: 10px;
-  width: 195px;
-}
-
-
-.container img {
-  max-width:200px;
-  max-height:150px;
-  width: auto;
-  height: auto;
-}
-
-/*flipcards*/
 .poster-cards, .poster-people{
-  margin-left: 5%;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+    margin-top: 30px;
+    margin-left: 35px;
 }
 .poster-card{
     width: 220px;
@@ -169,32 +54,25 @@ select {
     object-fit: cover;
 }
 
-.title-of-film-front{
-  color: #e7e7dd;
-  font-size: 18px;
-  margin: 15px;
-}
-.title-of-film, .title-of-chars{
-  color: #e7e7dd;
-  font-size: 18px;
-  margin: 35px;
-  padding: 5px;
+/*flipcards*/
+.info1{
+  margin-top: 50px;
 }
 
 .info1, .info2{
-  text-align: center;
-  font-size: 16px;
-  margin: 15px;
-} 
+text-align: left;
+margin-left: 15%;
+color: #e7e7dd;
+}
 
 .flip-card {
     background-color: #e7e7dd;
     width: 280px;
     height: 380px;
     perspective: 1000px;
+    margin-top: 30px;
+    margin-left: 35px;
     float: left;
-    margin: 15px;
-    display: flex;
   }
   
   .flip-card-inner {
@@ -234,19 +112,33 @@ select {
   .select-bar{
     width: 90%;
   }
-/*Footer*/
-footer {
-  background: #56658c;
-  color: #e7e7dd9d;
-  text-align: center;
-  height: 10vh;
-  padding: 1em;
-  width: 100%;
-}
-
-footer a{
-  text-decoration: none;
+/*Arrumando botões e seletores*/
+.button {
+  background-color: #56658c;
   color: #e7e7dd;
-  margin-top: 20px;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  height: 38px;
+  cursor: pointer;
+  border-radius: 5%;
 }
 
+select {
+  height: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #e7e7dd;
+  background-color: #56658c;
+  height: 38px;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 5%;
+}
+.title-of-film, .info1, .info2{
+  color: #e7e7dd;
+}
