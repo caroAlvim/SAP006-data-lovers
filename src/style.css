@@ -36,10 +36,7 @@ nav{
 
 .menu ul {
   /*background-color: #a0a2b0;#c1cfda;*/
-<<<<<<< HEAD
-=======
   
->>>>>>> 36fe99abadddb21843d05ad13dd59232433bd36d
   list-style: none; /*tira os marcadores*/
   padding: 10px;
   text-align: center;
@@ -48,11 +45,7 @@ nav{
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-<<<<<<< HEAD
-
-=======
   margin: 5px;
->>>>>>> 36fe99abadddb21843d05ad13dd59232433bd36d
 }
 
 .menu ul li {
