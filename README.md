@@ -2,9 +2,10 @@
 
 Projeto criado para organizar, filtrar e selecionar dados e apresentar em uma página web de acordo com a necessidade de usuários.
 
-Para visualizar, acesse [aqui.](link)
+Para visualizar, acesse [aqui.](https://caroalvim.github.io/SAP006-data-lovers/)
 
-![print-app-home]()
+
+![totoro](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/totoro.gif)
 
 ## Índice
 
@@ -31,7 +32,7 @@ Estes são os dados utilizados:
   - [Pesquisa com seguidores de Studio Ghibli](src/data/ghibli/README.md)
 
 
-Projeto desenvolvido por [Lediane Machado](https://github.com/ledi-mach) e [Carolina Alvim.](https://github.com/caroAlvim)
+✨ Projeto desenvolvido por [Lediane Machado](https://github.com/ledi-mach) e [Carolina Alvim.](https://github.com/caroAlvim)
 
 ## 2. Introdução
 
