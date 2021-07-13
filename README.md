@@ -46,14 +46,14 @@ Utilizando o Google Forms, realizamos uma pesquisa visando descobrir qual é a i
 
 Obtivemos os seguintes resultados:
 
-![print-idade]()
+![print-idade](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/idade.png)
 
 * 40,7% dos usuários tem entre 16-21 anos e mais de 30% tem entre 22-33 anos.
 
-![print-fa]()
+![print-fa](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/relacao.png)
 * 53,7% já conhecem as animações e se declaram fãs das animações.
 
-![interesse-site]()
+![interesse-site](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/topicos.png)
 * Parte significativa dos entrevistados afirmaram ter interesse em pesquisar filmes por diretor, ano de lançamento e por ordem alfabética dos personagens.
 
 
@@ -64,15 +64,15 @@ Após a análise das respostas do formulário, identificamos três usuários:
 
 ### Hitória 1
 
-![historia-um]()
+![historia-um](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/1.png)
 
 ### História 2
 
-![historia-dois]()
+![historia-dois](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/2.png)
 
 ### História 3
 
-![historia-tres]()
+![historia-tres](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/3.png)
 
 
 
@@ -80,11 +80,17 @@ Após a análise das respostas do formulário, identificamos três usuários:
 
 ![prototipo]()
 
-![paleta-ghibli]()
+A Paleta de cores escolhida baseia-se no filme "O Castelo Animado (Howl's Moving Castle)".
+![paleta-ghibli](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/paleta_ghibli.png)
+
+
+## 6. Teste de usabilidade
+
+Foi definido os seguintes pontos para melhorias:
 
 
 
-## 6. Objetivos de aprendizagem
+## 7. Objetivos de aprendizagem
 
 Neste projeto, o objetivo principal é aprender a desenhar e construir uma interface web onde se possa visualizar e manipular dados, entendendo o que o usuário necessita.
 
@@ -131,16 +137,5 @@ Para isso, foi utilizado:
 * Colaboração no Github (branches | pull requests | |tags)
 
 
-
-
-O coração deste projeto é a manipulação de dados através de arrays e objetos.
-
-Recomendamos que este arquivo contenha toda a funcionalidade que corresponda a obter, processar e manipular dados (suas funções):
-
-- `filterData(data, condition)`: esta função receberia os dados e nos retornaria os que cumprem com a condição.
-
-- `sortData(data, sortBy, sortOrder)`: esta função recebe três parâmetros. O primeiro, `data`, nos entrega os dados. O segundo, `sortBy`, diz respeito a qual das informações quer usar para ordenar. O terceiro, `sortOrder`, indica se quer ordenar de maneira crescente ou decrescente.
-
-- `computeStats(data)`: essa função nos permite fazer cálculos estatísticos básicos para serem exibidos de acordo com o que os dados permitem.
 
 
