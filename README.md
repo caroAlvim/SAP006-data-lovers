@@ -86,9 +86,8 @@ A Paleta de cores escolhida baseia-se no filme "O Castelo Animado (Howl's Moving
 
 ## 6. Teste de usabilidade
 
-Foi definido os seguintes pontos para melhorias:
-
-
+Os usuários que realizaram o teste de usabilidade relataram a necessidade de um campo de pesquisa nas páginas 2 e 3. Assim, incrementamos a estas páginas um campo onde pode-se digitar o elemento de busca, melhorando a usabilidade.
+Outro ponto indicado para melhoria foi a padronização dos cards de filmes e personagens, cuja sugestão seguimos e padronizamos os mesmos.
 
 ## 7. Objetivos de aprendizagem
 
