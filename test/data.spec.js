@@ -84,22 +84,6 @@ describe('releaseYear()', () => {
   });
 })
 
-/*describe('decrescentReleaseYear()', () => {
-
-  it('should be a function', () => {
-    expect(typeof decrescentReleaseYear).toBe('function');
-  })
-
-  it('should return movies by release date', () => {
-    expect(decrescentReleaseYear(filmsTest)).toEqual([
-    { "title": "The Secret World of Arrietty", "director": "Hiromasa Yonebayashi", "release_date": "2010", "rt_score": "95" },
-    { "title": "Princess Mononoke", "director": "Hayao Miyazaki", "release_date": "1997", "rt_score": "92" },
-    { "title": "Only Yesterday", "director": "Isao Takahata", "release_date": "1991", "rt_score": "100" },
-    { "title": "Grave of the Fireflies", "director": "Isao Takahata", "release_date": "1988", "rt_score": "97" },
-    { "title": "Castle in the Sky", "director": "Hayao Miyazaki", "release_date": "1986", "rt_score": "95" }]);
-});
-  })*/
-
 describe('should return movies by descrescent release date', () => {
   expect(decrescentReleaseYear(filmsTest)).toEqual([
     { "title": "The Secret World of Arrietty", "director": "Hiromasa Yonebayashi", "release_date": "2010", "rt_score": "95" },
