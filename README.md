@@ -67,14 +67,26 @@ Após a análise das respostas do formulário, identificamos três usuários:
 
 ![historia-um](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/1.png)
 
+Definição de pronto: Local para selecionar e filtrar os filmes por avaliação. 
+
+Critérios de aceitação: Os filmes serão exibidos na forma de flipcards, com o título e poster na frente e demais informações no verso. A ordem de exibição será dos filmes de maior para menor ratting score.
+
 ### História 2
 
 ![historia-dois](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/2.png)
+
+Definição de pronto: Local para organizar e apresentar os personagens com filtros de espécie, gênero, ordem alfabética e filme ao qual pertencem. 
+
+Critérios de aceitação: As informações associadas aos personagens serão exibidas na forma de flipcard com a imagem do personagem na frente e informações no verso.
+
 
 ### História 3
 
 ![historia-tres](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/3.png)
 
+Definição de pronto: Seletores para selecionar os filmes por diretor e ordem crescente/decrescente de lançamento.
+
+Critérios de aceitação: As informações selecionadas serão exibidas no verso de flipcards, podendo o usuário transitar entre tais informações e o poster do filme ao passar o mouse nas cartas.
 
 
 ## 5. Protótipo
@@ -87,8 +99,8 @@ A Paleta de cores escolhida baseia-se no filme "O Castelo Animado (Howl's Moving
 
 ## 6. Teste de usabilidade
 
-Os usuários que realizaram o teste de usabilidade relataram a necessidade de um campo de pesquisa nas páginas 2 e 3. Assim, incrementamos a estas páginas um campo onde pode-se digitar o elemento de busca, melhorando a usabilidade.
-Outro ponto indicado para melhoria foi a padronização dos cards de filmes e personagens, cuja sugestão seguimos e padronizamos os mesmos.
+Os usuários que participaram dos testes de usabilidade relataram a necessidade de um campo de pesquisa nas páginas 2 e 3, principalmente devido ao grande volume de personagens. Outro ponto para melhoria foi a padronização dos cards de filmes e personagens. Assim, incluímos um campo de pesquisa ligado às funções de filtro e padronizamos todos os flipcards quanto à cores e formatação das informações.
+
 
 ## 7. Objetivos de aprendizagem
 
