@@ -1,6 +1,6 @@
 # Studio Ghibli - Data Lovers
 
-Projeto criado para organizar, filtrar e selecionar dados e apresentar em uma página web de acordo com a necessidade de usuários.
+Projeto criado para organizar, filtrar e selecionar dados para apresentar em uma página web de acordo com a necessidade de usuários.
 
 Para visualizar, acesse [aqui.](https://caroalvim.github.io/SAP006-data-lovers/)
 
@@ -65,7 +65,7 @@ Após a análise das respostas do formulário, identificamos três usuários:
 
 ### Hitória 1
 
-![historia-um](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/1.png)
+![historia-um](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/jov.png)
 
 Definição de pronto: Local para selecionar e filtrar os filmes por avaliação. 
 
@@ -73,7 +73,7 @@ Critérios de aceitação: Os filmes serão exibidos na forma de flipcards, com 
 
 ### História 2
 
-![historia-dois](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/2.png)
+![historia-dois](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/ad.png)
 
 Definição de pronto: Local para organizar e apresentar os personagens com filtros de espécie, gênero, ordem alfabética e filme ao qual pertencem. 
 
@@ -82,7 +82,7 @@ Critérios de aceitação: As informações associadas aos personagens serão ex
 
 ### História 3
 
-![historia-tres](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/3.png)
+![historia-tres](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/cin.png)
 
 Definição de pronto: Seletores para selecionar os filmes por diretor e ordem crescente/decrescente de lançamento.
 
