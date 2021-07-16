@@ -12,7 +12,19 @@ const characters = animations.reduce(function(chars, film){
     // [...chars, ...film.people]
     return chars.concat(people)
 
-}, [])
+}, []);
+
+console.log(characters)
+
+const peopleUnic = new Map();
+
+characters.forEach((unicChars) => {
+    if(!peopleUnic.has(unicChars.name)){
+        peopleUnic.set(unicChars.name, unicChars);
+    }
+
+});
+console.log([...peopleUnic.values()]);
 
 
 function showCharacters(a) {
@@ -39,7 +51,7 @@ function showCharacters(a) {
         </div> `
     }
     document.getElementById("poster-people").innerHTML = people;
-}
+};
 
 showCharacters(characters)
 
@@ -110,13 +122,13 @@ const filterByName = () => {
     const valueSelected = searchName.value
     const charSelected = filterElement(characters, valueSelected);
     showCharacters(charSelected)
-}
+};
 
 const organizedAZ = document.querySelector('[data-az-order]');
 const organizedZA = document.querySelector('[data-za-order]');
 const selectedGender = document.getElementById('select-gender');
 const selectSpecies = document.getElementById('select-species');
-const searchName = document.getElementById('txt-search')
+const searchName = document.getElementById('txt-search');
 
 
 organizedAZ.addEventListener('click', orderAZ);
