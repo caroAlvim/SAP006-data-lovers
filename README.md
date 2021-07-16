@@ -96,6 +96,23 @@ Critérios de aceitação: As informações selecionadas serão exibidas no vers
 A Paleta de cores escolhida baseia-se no filme "O Castelo Animado (Howl's Moving Castle)".
 ![paleta-ghibli](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/paleta_ghibli.png)
 
+### Projeto final
+
+Home
+![pagina-home](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/pg-inicial.png)
+
+Header e navegaçao
+![header](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/pg-header.png)
+
+Página de filmes
+![pagina-films](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/pg-films.png)
+
+Página de personagens
+![pagina-chars](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/pg-chars.png)
+
+Página com calculo agregado
+![pagina-calc](https://github.com/caroAlvim/SAP006-data-lovers/blob/main/src/imgs/pg-chars-calc.png)
+
 
 ## 6. Teste de usabilidade
 
