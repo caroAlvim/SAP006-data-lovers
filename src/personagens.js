@@ -16,16 +16,6 @@ const characters = animations.reduce(function(chars, film){
 
 console.log(characters)
 
-const peopleUnic = new Map();
-
-characters.forEach((unicChars) => {
-    if(!peopleUnic.has(unicChars.name)){
-        peopleUnic.set(unicChars.name, unicChars);
-    }
-
-});
-console.log([...peopleUnic.values()]);
-
 
 function showCharacters(a) {
     let people = "";
