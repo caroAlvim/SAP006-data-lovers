@@ -14,8 +14,6 @@ const characters = animations.reduce(function(chars, film){
 
 }, []);
 
-console.log(characters)
-
 
 function showCharacters(a) {
     let people = "";
@@ -41,7 +39,7 @@ function showCharacters(a) {
         </div> `
     }
     document.getElementById("poster-people").innerHTML = people;
-};
+}
 
 showCharacters(characters)
 
