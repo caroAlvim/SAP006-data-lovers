@@ -8,8 +8,6 @@ const characters = animations.reduce(function(chars, film){
 
          return char 
      }) ;
-
-    // [...chars, ...film.people]
     return chars.concat(people)
 
 }, []);
@@ -43,7 +41,6 @@ function showCharacters(a) {
 
 showCharacters(characters)
 
-//seleciona por especies
 const filterSpecies = (evento) => {
     evento.preventDefault();
     
@@ -52,8 +49,6 @@ const filterSpecies = (evento) => {
     showCharacters(selectedSpecies);
 };
 
-
-//seleciona personagens por genero
 const selectGender = (evento) => {
     evento.preventDefault();
 
@@ -69,8 +64,6 @@ const selectGender = (evento) => {
 
 };
 
-
-//ordena os personagens por ordem alfabética
 const orderAZ = (evento) => {
     evento.preventDefault();
 
@@ -90,7 +83,6 @@ const orderZA = (evento) => {
 
 };
 
-// apresenta o calculo agregado
 const printCuriosity = (a, value, total) => {
     
     const totalChars = characters.length
@@ -100,10 +92,7 @@ const printCuriosity = (a, value, total) => {
          <p><strong> The average age of ${value} characters is ${a} years old.</p></strong>
          </div>`
 
-        
-    
-    document.getElementById("curiosities").innerHTML = conteudo;
-    
+    document.getElementById("curiosities").innerHTML = conteudo; 
 };
 
 const filterByName = () => {
