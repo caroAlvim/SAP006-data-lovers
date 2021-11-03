@@ -615,7 +615,7 @@ export default {
           "id": "c8f02850-0c1f-499c-8b5e-d8ad16f3ecc4",
           "name": "Yaeko Okajima",
           "gender": "Female",
-          "img": "https://cdn.myanimelist.net/images/characters/2/218427.jpg",
+          "img": "https://cdn.anisearch.com/images/character/cover/full/67/67743.webp",
           "age": "16",
           "eye_color": "Black",
           "hair_color": "Grey",
@@ -624,7 +624,7 @@ export default {
         {
           "id": "6e960787-5a47-4178-a040-1ef5bf5e4a6c",
           "name": "Tani Tsuneko",
-          "img": "https://cdn.myanimelist.net/images/characters/13/346679.jpg",
+          "img": "https://cdn.anisearch.com/images/character/cover/full/67/67747.webp",
           "gender": "Female",
           "age": "10",
           "eye_color": "Black",
@@ -737,16 +737,7 @@ export default {
           "hair_color": "Black",
           "specie": "Human"
         },
-        {
-          "id": "a63c25f4-41a4-4f78-933f-3c14e2903a8f",
-          "name": "Capo",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/9/98/Aiuto_Gang_boss.jpg",
-          "gender": "Male",
-          "age": "Adult",
-          "eye_color": "Black",
-          "hair_color": "Bald",
-          "specie": "Human"
-        },
+  
         {
           "id": "1f24edca-65cf-4268-afe8-61e2c2afa5af",
           "name": "Capo",
@@ -1287,16 +1278,6 @@ export default {
           "specie": "unknown"
         },
         {
-          "id": "d9aceca5-beb9-4b2a-85ba-fc17d33750f8",
-          "name": "Zeniba",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/d/d8/Zeniba.png",
-          "gender": "Female",
-          "age": "Elder",
-          "eye_color": "Dark brown",
-          "hair_color": "White",
-          "specie": "Witch"
-        },
-        {
           "id": "68c4b603-0b31-43dc-b869-a1aa00528b7e",
           "name": "Zeniba",
           "img": "https://static.wikia.nocookie.net/studio-ghibli/images/d/d8/Zeniba.png",
@@ -1547,7 +1528,7 @@ export default {
         {
           "id": "45237428-93bf-4dd6-97ce-f10647300429",
           "name": "Prince Justin or Turnip Head",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/d/d9/Prince_Justin.png",
+          "img": "https://cdn.anisearch.com/images/character/cover/full/9/9760.webp",
           "gender": "Male",
           "age": "20-30",
           "eye_color": "Grey",
@@ -2390,7 +2371,7 @@ export default {
         {
           "id": "5b8e4413-f943-40ba-8f9f-0ba059a401f0",
           "name": "Hisako",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/9/93/Hisako.png",
+          "img": "https://cdn.anisearch.com/images/character/cover/full/51/51332.webp",
           "gender": "Female",
           "age": "Elder",
           "eye_color": "Dark brown",
@@ -2420,7 +2401,7 @@ export default {
         {
           "id": "31b49ef6-ee60-4603-b983-e67fa0718aa9",
           "name": "Kiyomasa Ōiwa",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/d/d7/Kiyomasa.jpg",
+          "img": "https://cdn.anisearch.com/images/character/cover/full/51/51332.webp",
           "gender": "Male",
           "age": "50-60",
           "eye_color": "Dark brown",
@@ -2430,7 +2411,7 @@ export default {
         {
           "id": "5d52d16f-ce72-41bd-8d88-436e206d9449",
           "name": "Doctor Yamashita",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/8/8a/Yamashita.jpg",
+          "img": "https://cdn.anisearch.com/images/character/cover/full/51/51331.webp",
           "gender": "Male",
           "age": "Adult",
           "eye_color": "Black",
